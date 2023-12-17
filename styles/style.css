@@ -16,7 +16,6 @@ h1 {
     height: 100px;
     padding: 20px;
     -webkit-text-stroke: 1px rgb(98, 145, 118);
-
 }
 
 h2 {
@@ -29,6 +28,32 @@ h2 {
 
 h3 {
     color: rgb(98, 145, 118);
+    padding: 0 0 10px 0;
+}
+
+ul {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+ol {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+li {
+    padding: 10px;
+}
+
+a:visited {
+    color: white;
+}
+section a:visited {
+    color: rgb(212, 127, 140);
+}
+
+article a:visited {
+    color: rgb(212, 127, 140);
 }
 
 .button {
@@ -51,11 +76,6 @@ header nav {
     height: 400px;
 }
 
-footer img {
-    width: 100px;
-    height: auto;
-}
-
 main {
     padding: 20px;
 }
@@ -67,21 +87,15 @@ section {
 }
 
 section>p {
-    padding: 10px;
+    padding: 15px;
 }
 
 section h2 {
     border-radius: 10px 10px 0 0;
 }
-ul {
-    padding: 10px;
-    margin-left: 30px;
+section ul {
+    padding: 20px;
 }
-ol {
-    padding: 10px;
-    margin-left: 30px;
-}
-
 header nav ul {
     display: flex;
     gap: 10px 20px;
@@ -116,26 +130,18 @@ article {
     display: flex;
     margin-top: 15px;
     margin-bottom: 5px;
-    padding: 10px;
+    padding: 15px;
     margin: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
 }
 
-article .content{
-   padding-left: 20px;
-}
-
-article .content ol {
-   padding: 30px;
-}
-
-article .content ul {
-   padding: 30px;
+article .content {
+    padding-left: 20px;
 }
 
 article picture {
-    float: left; 
+    float: left;
 }
 
 picture img {
@@ -184,18 +190,20 @@ section .blockrow {
     font-style: italic;
 }
 
-footer {
-    background-color: rgb(98, 145, 118);
-    padding: 20px;
-}
-
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+footer {
+    background-color: rgb(98, 145, 118);
+    padding: 20px;
+}
+
 footer img {
+    width: 100px;
+    height: auto;
     max-width: 100px;
 }
 
