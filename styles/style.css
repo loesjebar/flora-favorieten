@@ -49,8 +49,6 @@ header nav {
     justify-content: center;
     align-items: center;
     height: 400px;
-
-
 }
 
 footer img {
@@ -75,13 +73,11 @@ section>p {
 section h2 {
     border-radius: 10px 10px 0 0;
 }
-
-section ul {
+ul {
     padding: 10px;
     margin-left: 30px;
 }
-
-section ol {
+ol {
     padding: 10px;
     margin-left: 30px;
 }
@@ -95,7 +91,7 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li a {
+header nav a {
     display: inline-block;
     padding: 15px 30px;
     text-align: center;
@@ -118,16 +114,31 @@ nav ul li a.active {
 
 article {
     display: flex;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
     padding: 10px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
 
-article .content {
-    margin: 10px;
+article .content{
+   padding-left: 20px;
 }
 
-article img {
+article .content ol {
+   padding: 30px;
+}
+
+article .content ul {
+   padding: 30px;
+}
+
+article picture {
+    float: left; 
+}
+
+picture img {
     max-width: 300px;
     max-height: 300px;
     width: auto;
@@ -149,7 +160,7 @@ article img {
     }
 }
 
-section img:hover {
+picture img:hover {
     animation-name: poink;
     animation-duration: 1s;
 }
@@ -171,11 +182,6 @@ section .blockrow {
 
 .myblock p {
     font-style: italic;
-}
-
-.myblock picture img {
-    max-width: 100%;
-    border-radius: 10px;
 }
 
 footer {
